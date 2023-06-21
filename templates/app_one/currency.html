@@ -1,0 +1,13 @@
+{% extends 'app_one/base.html' %}
+
+{% block content %}
+
+
+<div id="currency" hx-get="/get-currency/" hx-trigger="every 2s" hx-swap="innerhtml">
+
+  {% include 'app_one/partials/content.html' %}
+
+</div>
+
+
+{% endblock content %}

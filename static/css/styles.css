@@ -1,0 +1,15 @@
+#navbar {
+    height: 100px;
+}
+
+.success {
+    margin-top: 2px;
+    color: green;
+    transition: all ease-in .1s;
+}
+
+.error {
+    margin-top: 2px;
+    color: red;
+    transition: all ease-in 1s;
+}
